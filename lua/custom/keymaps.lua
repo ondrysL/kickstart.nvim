@@ -1,5 +1,7 @@
 local wk = require 'which-key'
 
+vim.keymap.set('n', '<leader>tn', ':Neotree close<cr> | :Neotree current<cr>', { desc = 'Open file explorer' })
+
 -- keymaps for terminal
 vim.keymap.set('n', '<leader>tt', ':ToggleTerm size=15<cr>', { desc = 'Open terminal' })
 --
